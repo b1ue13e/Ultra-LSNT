@@ -1,5 +1,7 @@
 # Ultra-LSNT
 
+[中文说明](README.zh-CN.md) · [Repository](https://github.com/b1ue13e/Ultra-LSNT)
+
 Public reproducibility repository for the manuscript:
 
 > "Controller-side feasibility guidance for wind power forecasting under corrupted SCADA"
@@ -52,6 +54,17 @@ Ultra-LSNT/
 ```
 
 The canonical data location is `data/`. Root-level CSV copies are intentionally retained only to preserve compatibility with older scripts that expect those filenames in the repository root.
+
+## Verification and documentation
+
+- [Quick start](QUICKSTART.md): environment setup and fastest readable sanity check.
+- [Data guide](DATA.md): canonical paths for raw Wind (CN), processed datasets, and root compatibility CSVs.
+- [Experiments guide](EXPERIMENTS.md): primary scripts for training, robustness, efficiency, ablation, and cross-domain diagnostics.
+- [Structure](STRUCTURE.md) and [Summary](SUMMARY.md): repository layout and project scope.
+- [Documentation archive](docs/README.md): historical reports in `docs/archive/` and maintainer notes in `docs/maintainers/`.
+- [License](LICENSE) and [Contributing](CONTRIBUTING.md): terms and issue-reporting conventions.
+
+This repository contains published code and benchmark assets for paper inspection; it is not a packaged library and does not include unverified automated performance guarantees.
 
 ## Data availability
 
